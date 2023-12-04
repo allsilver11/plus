@@ -10,7 +10,6 @@ public class HealthCheckController {
 
 	@PostMapping(value = "/healthcheck")
 	public String healthCheck() {
-		
 		return "hello world!";
 	}
 }
