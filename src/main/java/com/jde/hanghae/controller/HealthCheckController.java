@@ -13,5 +13,4 @@ public class HealthCheckController {
 		
 		return "hello world!";
 	}
-	
 }
