@@ -3,7 +3,7 @@ name: Development CD Pipeline
 on:
     push:
       branches:
-        - 'dev-*'
+        - 'master'
 
 env:
     AWS_REGION: ap-northeast-2
